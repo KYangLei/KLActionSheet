@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     @IBAction func button3Handler() {
         let actionSheet = KLActionSheet(buttonList: ["ActionSheet 1", "ActionSheet 2", "ActionSheet 3"])
         actionSheet.delegate = self
-        actionSheet.actionSheetTitle = "PGActionSheet"
+        actionSheet.actionSheetTitle = "KLActionSheet"
         present(actionSheet, animated: false, completion: nil)
     }
     
